@@ -1,6 +1,7 @@
 ```c++
 class Me:
   public:
-    
-  private:
+    char* name = "Shepard James Berry";
+    char** description = {"student", "programmer", "muscician", "athlete"};
+    char** languages = {"C/C++", "Python", "Java"};
 ```
