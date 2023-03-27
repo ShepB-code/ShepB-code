@@ -1,8 +1,8 @@
 ### 👋🏻 Hello! Nice to meet you!  
-```c++
+```py
 class Me:
-  public:
-    char* name = "Shepard James Berry";
-    char** description = {"student", "programmer", "muscician", "athlete"};
-    char** languages = {"C/C++", "Python", "Java"};
+  def __init__(self):
+      self.name = "Shepard"
+      self.description = "Student at Baylor University studying Computer Science, Finance, and Mathematics"
+      self.languages = ["C++", "Python", "Java"]
 ```
